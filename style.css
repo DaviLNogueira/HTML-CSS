@@ -9,9 +9,17 @@ body {
 
 }
 
+h1 {
+
+    text-align: center;
+}
 p{
     text-align: center; 
     
+}
+
+#missao { /*todos os ids são identificados pelo jogo da velha  e não usar css no html*/
+    font-size: 20px;
 }
 
 em strong{ /*colocar um encapsulamento da especificar melhor ainda*/
