@@ -1,3 +1,19 @@
+
+body {
+    background-color: #CCCCCC
+    /*-- vermelho -- verde -- azul
+    
+    F maxino
+    255 - maxima 
+    */
+
+}
+
 p{
-    text-align: center;
+    text-align: center; 
+    
+}
+
+em strong{ /*colocar um encapsulamento da especificar melhor ainda*/
+    color: #FF0000; 
 }
