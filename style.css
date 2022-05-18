@@ -9,9 +9,19 @@ body {
 
 }
 
+#banner{
+
+    width: 100%;
+   
+}
+
 h1 {
 
     text-align: center;
+    border: 10px solid #000000;
+    height: 150px;
+    /*padding: 20px; espaçamento interno
+    margin-left: 40px; espaçamento externo*/
 }
 p{
     text-align: center; 
