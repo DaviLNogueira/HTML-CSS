@@ -20,6 +20,8 @@ nav {
     right: 0;
 }
 
+
+
 nav a {
     text-transform: uppercase; /*todos mundo para upper case*/
     color: black;
@@ -27,6 +29,8 @@ nav a {
     font-size: 22px;
     text-decoration: none; /*nenhuma decoração*/
 }
+
+
 
 .produtos{
     width: 940px;
@@ -43,8 +47,13 @@ nav a {
     margin: 0 1.5%;
     padding: 30px 20px ;
     box-sizing: border-box; /*deixa bem o width fixo*/
-
+    border-color: black;
+    border-width: 2px; /*largura*/
+    border-style: solid;
+    border:2px solid black; /*versão resumida*/
+    border-radius: 10px; /*borda arrendondada*/
 }
+
 
 
 .produtos h2{
@@ -52,6 +61,7 @@ nav a {
     font-weight: bold;
     text-transform: capitalize; /*primeira letra maiuscula*/
 }
+
 
 
 .produto-descricao{
