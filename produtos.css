@@ -30,7 +30,9 @@ nav a {
     text-decoration: none; /*nenhuma decoração*/
 }
 
-
+nav a:hover{ /*Quando o mouse está em cima do elemento*/
+    color: #C78c19;
+}
 
 .produtos{
     width: 940px;
@@ -55,6 +57,18 @@ nav a {
 }
 
 
+
+.produtos li:hover {
+    border-color: #C78c19;
+}
+
+.produtos li:active{ /*active sempre em baixo do hover*/ 
+    border-color: #088C19;
+}
+
+.produtos li:hover h2{ /*para tesxto aumentar dele colocar a tag do segundo elementos depois do houver*/
+    font-size: 34px;
+}
 
 .produtos h2{
     font-size: 30px;
