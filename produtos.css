@@ -1,10 +1,23 @@
 header{
     background-color: #bbbbbb;
+    padding:  0 0 20px 20px;
+}
+
+.caixa{
+    position: relative;
+    width: 940px; /*Normalmente reconhecida como uma boa marge*/
+    margin: 0 auto;
 }
 
 nav li {
     display: inline;
     margin: 0 0 0 15px;/*magem interna entre os li , cima , baixo , direita ,esquerda*/
+}
+
+nav {
+    position: absolute; /*podendo estar em qualquer lugar da pagina*/
+    top: 110px; /* colocar no inicio da pagina*/
+    right: 0;
 }
 
 nav a {
