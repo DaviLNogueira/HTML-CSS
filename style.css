@@ -18,9 +18,9 @@ body {
 h1 {
 
     text-align: center;
-    border: 10px solid #000000;
+    /*border: 10px solid #000000;
     height: 150px;
-    /*padding: 20px; espaçamento interno
+    padding: 20px; espaçamento interno
     margin-left: 40px; espaçamento externo*/
 }
 p{
@@ -33,5 +33,5 @@ p{
 }
 
 em strong{ /*colocar um encapsulamento da especificar melhor ainda*/
-    color: #FF0000; 
+    color: #ff0000; 
 }
