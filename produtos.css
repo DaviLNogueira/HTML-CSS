@@ -1,0 +1,16 @@
+header{
+    background-color: #bbbbbb;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;/*magem interna entre os li , cima , baixo , direita ,esquerda*/
+}
+
+nav a {
+    text-transform: uppercase; /*todos mundo para upper case*/
+    color: black;
+    font-weight: bold; /*colocar em negrito*/
+    font-size: 22px;
+    text-decoration: none; /*nenhuma decoração*/
+}
