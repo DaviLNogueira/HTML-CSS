@@ -28,5 +28,38 @@ nav a {
     text-decoration: none; /*nenhuma decoração*/
 }
 
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{ /*quando vc que determinar que a classe possa alterar uma tag encapsulado na tag principal deve declarar */
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top; /*Se alinham pela linha de cima*/
+
+}
+
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize; /*primeira letra maiuscula*/
+}
+
+
+.produto-descricao{
+
+    font-size: 18px;
+    
+}
+
+.produto-preco{
+
+    font-size: 22px;
+    font-weight:bold;
+}
 
 
