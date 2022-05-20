@@ -91,6 +91,8 @@ nav a:hover{ /*Quando o mouse está em cima do elemento*/
     margin-top: 10px;
 }
 
+
+
 footer{
     text-align: center;
     background: url("bg.jpg"); /*adição de foto */
@@ -102,4 +104,27 @@ footer{
     color: white;
     font-size: 13px;
     margin-top: 20px;
-} 
+}
+
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+form input{ /*alterar os inputs do form*/
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px ;/*espaçamento interno*/
+    width: 50%;
+}
