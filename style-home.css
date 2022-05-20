@@ -1,0 +1,67 @@
+
+body {
+
+    /*-- vermelho -- verde -- azul
+    
+    F maxino
+    255 - maxima 
+    */
+
+}
+
+#banner{
+
+    width: 100%;
+   
+}
+
+.principal{
+    background-color: #CCCCCC;
+    padding: 30px;
+
+}
+
+.titulo-principal{
+    padding-left: 20px;
+}
+.titulo-centralizado{
+    text-align: center;
+}
+
+p{
+    text-align: center; 
+    
+}
+
+#missao { /*todos os ids são identificados pelo jogo da velha  e não usar css no html , id é para apenas um conjunto de elementos*/
+    font-size: 20px;
+}
+
+em strong{ /*colocar um encapsulamento da especificar melhor ainda*/
+    color: #ff0000; 
+}
+
+.itens { /*classe são defenidas para pontos, para um conjunto de dados */
+    font-style: italic;
+}
+
+.beneficio{
+    background-color: white;
+    padding: 20px;
+}
+
+h2{
+    text-align: center ;
+}
+
+ul{
+    display: inline-block; /*so deixa o tamanho do conteudo e deixa bloqueado*/
+    vertical-align: top; /*alinhamento para cima*/
+    width: 20%; /*em relação a pagina*/
+    margin-right: 15%; /*espaçamento da margem*/
+
+
+}
+.imagembeneficios{
+    width: 50%;
+}

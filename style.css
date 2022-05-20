@@ -1,67 +1,105 @@
-
-body {
-
-    /*-- vermelho -- verde -- azul
-    
-    F maxino
-    255 - maxima 
-    */
-
+header{
+    background-color: #bbbbbb;
+    padding:  0 0 20px 20px;
 }
 
-#banner{
-
-    width: 100%;
-   
+.caixa{
+    position: relative;
+    width: 940px; /*Normalmente reconhecida como uma boa marge*/
+    margin: 0 auto;
 }
 
-.principal{
-    background-color: #CCCCCC;
-    padding: 30px;
-
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;/*magem interna entre os li , cima , baixo , direita ,esquerda*/
 }
 
-.titulo-principal{
-    padding-left: 20px;
+nav {
+    position: absolute; /*podendo estar em qualquer lugar da pagina*/
+    top: 110px; /* colocar no inicio da pagina*/
+    right: 0;
 }
-.titulo-centralizado{
+
+
+
+nav a {
+    text-transform: uppercase; /*todos mundo para upper case*/
+    color: black;
+    font-weight: bold; /*colocar em negrito*/
+    font-size: 22px;
+    text-decoration: none; /*nenhuma decoração*/
+}
+
+nav a:hover{ /*Quando o mouse está em cima do elemento*/
+    color: #C78c19;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{ /*quando vc que determinar que a classe possa alterar uma tag encapsulado na tag principal deve declarar */
+    display: inline-block; /*se comparta com o tamanho do seu conteúdo , mas regulável*/
     text-align: center;
+    width: 30%;
+    vertical-align: top; /*Se alinham pela linha de cima*/
+
+    margin: 0 1.5%;
+    padding: 30px 20px ;
+    box-sizing: border-box; /*deixa bem o width fixo*/
+    border-color: black;
+    border-width: 2px; /*largura*/
+    border-style: solid;
+    border:2px solid black; /*versão resumida*/
+    border-radius: 10px; /*borda arrendondada*/
 }
 
-p{
-    text-align: center; 
+
+
+.produtos li:hover {
+    border-color: #C78c19;
+}
+
+.produtos li:active{ /*active sempre em baixo do hover*/ 
+    border-color: #088C19;
+}
+
+.produtos li:hover h2{ /*para tesxto aumentar dele colocar a tag do segundo elementos depois do houver*/
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize; /*primeira letra maiuscula*/
+}
+
+
+
+.produto-descricao{
+
+    font-size: 18px;
     
 }
 
-#missao { /*todos os ids são identificados pelo jogo da velha  e não usar css no html , id é para apenas um conjunto de elementos*/
-    font-size: 20px;
+.produto-preco{
+
+    font-size: 22px;
+    font-weight:bold;
+    margin-top: 10px;
 }
 
-em strong{ /*colocar um encapsulamento da especificar melhor ainda*/
-    color: #ff0000; 
+footer{
+    text-align: center;
+    background: url("bg.jpg"); /*adição de foto */
+    padding: 40px 0px;
 }
 
-.itens { /*classe são defenidas para pontos, para um conjunto de dados */
-    font-style: italic;
-}
 
-.beneficio{
-    background-color: white;
-    padding: 20px;
-}
-
-h2{
-    text-align: center ;
-}
-
-ul{
-    display: inline-block; /*so deixa o tamanho do conteudo e deixa bloqueado*/
-    vertical-align: top; /*alinhamento para cima*/
-    width: 20%; /*em relação a pagina*/
-    margin-right: 15%; /*espaçamento da margem*/
-
-
-}
-.imagembeneficios{
-    width: 50%;
-}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+} 
