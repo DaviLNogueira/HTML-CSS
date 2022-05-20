@@ -63,8 +63,35 @@
                 <label ><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
                 
         
-                <input type="submit" value="Enviar formulario"><!--quando adiciona o value faz com que indepedente da lingua fixa a mensagem em questão-->
+                <input type="submit" value="Enviar formulario" class="enviar"> <!--quando adiciona o value faz com que indepedente da lingua fixa a mensagem em questão-->
             </form>
+
+            <table> <!--Criação de tablas-->
+                <thead> <!--Para o cabeçalho da tabela-->
+                    <tr>
+                        <th>Dia</th> <!--Celula do cabeçalho -->
+                        <th>Horario</th>
+                    </tr><!--São as linhas-->
+                </thead>
+                <tbody><!--Corpo da tabela-->
+                    <tr>
+                        <td>Segunda</td><!--Coluna-->
+                        <td>8h às 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h às 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h às 20h</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Final de semana</td> <!--Usado para mesclar celulas-->
+                         
+                    </tr>
+                </tbody>    
+            </table>
         </main>
         <footer> <!--para o rodapé a tag-->
             <img src="logo-branco.png" alt="Logo da Barbearia Alura">

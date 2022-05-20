@@ -137,3 +137,37 @@ form label,legend{ /*oloca virgula para adicionar mais de um elemento*/
 form p{
     color: azul;
 }
+
+.enviar{
+    width: 40%;
+    padding: 15px 15px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all; /*para realizar a transição de cor pr 1 segundo*/
+    cursor: pointer; /*mudar o cursor quando está em cima do elemento*/
+}
+
+.enviar:hover{
+    background-color: darkorange;
+    transform: scale(1.2);/*aumenta em 20% 1 * % no que deseja*/
+    /*transform: rotate(70deg) Faz que o elemto se rotaciona*/
+}
+
+table{
+    margin: 20px 0px 40px;
+    margin-left : 10%
+}
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td , th{
+    border: 1px solid black;
+    padding: 8px 15px ;
+}
