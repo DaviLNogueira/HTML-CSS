@@ -31,7 +31,28 @@
 
                 <label for="telefone">Telefone</label>
                 <input type="text" id="telefone">
+
+
+                <label for="mesnsagem">Mensagem</label>
+                <textarea  id="mesnsagem" cols="30" rows="10"></textarea> <!--Campo normalmente para o envio de mensagem-->
+
+                <!--Para que tos os inputs radio fiquem conectados precisamos colocar name="rastreador" para que selecione apenas um opção-->
+
+                <div><!--Colocar uma div para colocar para organização-->
+                    <p>Como prefere o nosso contato</p>
+                    <label for="radio-email">Email</label>
+                    <input type="radio" name="contato" value="email" id="radio-email"> <!--Utilizado para opções , circulos-->
+
+                    <label for="radio-telefone">Telefone</label>
+                    <input type="radio" name="contato"value="telefone" id="radio-telefone">
+
+                    <label for="radio-whatsapp">Whatsaap</label>
+                    <input type="radio" name="contato"value="whatsaap" id="radio-whatsapp">
+                </div>
+
+                <label ><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
                 
+        
                 <input type="submit" value="Enviar formulario"><!--quando adiciona o value faz com que indepedente da lingua fixa a mensagem em questão-->
             </form>
         </main>
