@@ -183,6 +183,8 @@ td , th{
     font-size: 2em; /*em significado padrão e o n° em sua frente significa o multiplicador, deve colocar o n° na frente*/
     margin: 0 0 1em;
     clear: left; /*limpa o float,para criar uma barreira*/
+    color: rgba(0, 0, 0, 1); /*cor usado para defenir opacidade,rgba*/
+    text-shadow: 1px 2px 30px rgba(0, 0, 0, 0.7); /*sombra no texto*/
 }
 
 .principal{
@@ -201,11 +203,20 @@ td , th{
 
 .principal em {
     font-style: italic;
+    
 }
 
 .imagembeneficios{
     width: 60%;
+    opacity: 1; /*Usado para gerar opasidade*/
+    transition: 2000ms;
+    box-shadow: 5px 10px 5px #000000; /*deixar para fazer a sombra X Y op = transformação op1 = salto para fora*/
     
+}
+
+.imagembeneficios:hover{
+    
+    opacity: 0.3;
 }
 
 .utensilios{
@@ -217,6 +228,7 @@ td , th{
 .beneficios{
     padding: 3em 0;
     background-color: #888888;
+
 }
 
 .conteudo-beneficios{
