@@ -171,3 +171,37 @@ td , th{
     border: 1px solid black;
     padding: 8px 15px ;
 }
+
+.banner{
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em; /*em significado padrão e o n° em sua frente significa o multiplicador, deve colocar o n° na frente*/
+    margin: 0 0 1em;
+    clear: left; /*limpa o float,para criar uma barreira*/
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imagembeneficios{
+    width: 60%;
+    
+}
+
+.utensilios{
+    width: 120px;
+    float: left; /*Faz com que a imagem "flutua" em cima da pagina ,e é preenchida as laterais opostas */
+    margin: 0 20px 0 20px;
+}

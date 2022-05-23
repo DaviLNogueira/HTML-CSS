@@ -7,28 +7,40 @@
     <head>
         <title>Barbearia Alura</title>
         <meta charset="UTF-8"> <!--compativel com caracteres, principalmete acento-->
-        <link rel="stylesheet" href ="style-home.css">
-        <!--rel é o tipo de aquivo que é gerado e o href é o caminho -->
+        <link rel="stylesheet" href="reset.css"><!--Podemos coloar esse aquivo para resetar o css , pq o navegador carrega algumas configurações padrões-->
+        <link rel="stylesheet" href="style.css">
+        <!--<link rel="stylesheet" href ="style-home.css">
+        rel é o tipo de aquivo que é gerado e o href é o caminho -->
 
     </head>
 
 
     <body>
         <header>
-            <h1 class="titulo-principal">Barbearia Alura</h1>
+            <div class="caixa">
+                <h1><img src="logo.png" alt="Logo da Barbearia"></h1><!--Podemos e devemos quando a imagem vem no lugar do titulo colar no h1-->
+                <nav> <!-- Especialmente para navegação-->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produto.html">Produto</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <img id = banner src="banner.jpg" alt="Cadeiras de barbearia"> <!--adição de imagem, src é o caminho percorrido-->
-
-        <div class="principal">
-            <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
+        <img class="banner" src="banner.jpg" alt="Cadeiras de barbearia"> <!--adição de imagem, src é o caminho percorrido-->
+        <main>
+        <section class="principal">
+            <h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+            <img class="utensilios" src="utensilios.jpg" alt="Utensilios de barbearia">
 
             <p >Localizada no coração da cidade a <strong> Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
                                                         <!--Strong deixa enface o texto-->
             <p id = "missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p> <!--em é para italico -->
             <p >Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-        </div>
+        </section> <!--Div elemeto visual e section quando o bloco é semantico -->
         <div class="beneficio">
-            <h3 class="titulo-centralizado">Benefícios</h3>
+            <h3 class="titulo-principal">Benefícios</h3>
 
             <ul> <!--ul é para lista não ordenados-->
                 <li class="itens">Atendimento aos clientes</li> <!--adição da organização -->
@@ -39,7 +51,7 @@
 
             <img src="beneficios.jpg" alt="Fazendo a barba" class="imagembeneficios">
         </div>
-
+        </main>
     </body>
    
     
